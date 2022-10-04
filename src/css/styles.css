@@ -18,3 +18,54 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.country-img {
+  width: 60px;
+  height: 40px;
+  display: block;
+  margin-right: 10px;
+}
+
+.country-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.country-label {
+  font-size: 20px;
+  margin: 0;
+}
+
+.country-info-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.country-info-img {
+  width: 100px;
+  height: 60px;
+  display: block;
+}
+
+.country-info-subtitle {
+  font-weight: 700;
+}
+
+.country-info-text {
+  font-weight: 400;
+}
