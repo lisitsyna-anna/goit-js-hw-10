@@ -22,7 +22,7 @@ function onSearch(evt) {
     return;
   }
 
-  const normalizedSearchCountry = searchContry.trim();
+  const normalizedSearchCountry = searchContry.trim().toLowerCase();
   fetchCountries(normalizedSearchCountry)
     .then(countries => renderMarkupCountry(countries))
     .catch(error => Notify.failure('Oops, there is no country with that name'));
